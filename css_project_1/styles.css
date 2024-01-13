@@ -55,6 +55,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+common style 
+common button
 /* global styles */
 
 /* header styles start */
@@ -287,7 +289,7 @@ img {
   font-size: 40px;
 }
 
-.inspired-link {
+.more-button{
   display: flex;
   align-items: center;
   column-gap: 16px;
@@ -297,7 +299,8 @@ img {
   line-height: 24px;
 }
 
-.inspired__body {
+.inspired-body
+{
     display: flex;
     flex-direction: column;
     row-gap: 8px;
@@ -345,4 +348,27 @@ img {
   color: #fff;
 }
 
+
+.place-wrapper {
+  padding: 36px 24px;
+  display: flex;
+  column-gap: 36px;
+}
+
+.place-description {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.place-description_title {
+   font-size: 30px;
+   font-weight: 500;
+}
+
+.place-description_text {
+  font-size: 16px;
+  font-weight: 400;
+}
 
